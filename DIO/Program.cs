@@ -1,5 +1,31 @@
 ﻿using DIO.Common.Models;
 using System;
+using System.IO;
+using System.Linq;
+
+int qt = int.Parse(Console.ReadLine());
+// TODO: Crie as outras condições necessárias para a resolução do desafio:
+for (int i = 0; i < qt; i++)
+{
+    string[] v = new string[2];
+    //Console.ReadLine().Split(" ");
+    string a = v[0];
+    string b = v[1];
+
+    if (a.Length < b.Length)
+    {
+        Console.WriteLine("nao encaixa");
+    }
+    else if (a.EndsWith(b))
+    {
+        Console.WriteLine("encaixa");
+    }
+    else
+    {
+        Console.WriteLine("nao encaixa");
+    }
+
+}
 
 // // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
@@ -85,12 +111,16 @@ using System;
 
 //////////////// LISTA ////////////////////
 
-List<string> listString = new List<string>();
-listString.Add("PE");
-listString.Add("BA");
-listString.Add("RJ");
-listString[1] = "SP";
+// List<string> listString = new List<string>();
+// listString.Add("PE");
+// listString.Add("BA");
+// listString.Add("RJ");
+// listString[1] = "SP";
+// string text = "text";
+// int n = text.EndsWith;
+// study s = new study();
 
-foreach(string value in listString){
-    Console.WriteLine(value);
-}
+// foreach (string value in listString)
+// {
+//     Console.WriteLine(value);
+// }

@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 
 namespace DIO.Common.Models
 {
+    /// <summary>
+    /// NICE
+    /// </summary>
     public class study
     {
-        public string? Nome {get; set;}
+        public string? Nome { get; set; }
 
     }
 }

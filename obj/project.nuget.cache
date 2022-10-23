@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "br5IzVoRZbZX1qB62ix5YKgMTgif7+0QlYBcicUdyWa2G06lsI69oSRrh7oQkEHVaMp45dackqVkXlS0sxWtNw==",
+  "dgSpecHash": "0qIPJouz+6lvzzETkKI3795LIKEC9qGtAHSL6bbcHNcQnL5DSWKeeuvcRKZcv5mC/DpjuRAAWGUmJ/leKSOSsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\teo-s\\Documents\\Documentos\\GitHub\\DIO-Pottencial-.NET\\DIO-Pottencial-.NET.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\teo-s\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

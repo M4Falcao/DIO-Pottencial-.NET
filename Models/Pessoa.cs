@@ -14,6 +14,12 @@ namespace DIO_Pottencial_.NET.Models
         }
 
         public Pessoa() { } //PODE TER MAIS DE UM CONSTRUTOR
+
+        public void Deconstruct(out string nome, out string sobrenome) //TEM QUE TER ESSE NOME
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
         private string _nome;
         private int _idade;
         public string Nome
@@ -45,7 +51,9 @@ namespace DIO_Pottencial_.NET.Models
                 _idade = value;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public void Apresentar()
         {
             Console.WriteLine($"Nome: {NomeCompleto}, Idade : {Idade}");

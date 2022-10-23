@@ -13,3 +13,5 @@ C:\Users\teo-s\Documents\Documentos\GitHub\DIO-Pottencial-.NET\obj\Debug\net6.0\
 C:\Users\teo-s\Documents\Documentos\GitHub\DIO-Pottencial-.NET\obj\Debug\net6.0\DIO-Pottencial-.NET.pdb
 C:\Users\teo-s\Documents\Documentos\GitHub\DIO-Pottencial-.NET\obj\Debug\net6.0\DIO-Pottencial-.NET.genruntimeconfig.cache
 C:\Users\teo-s\Documents\Documentos\GitHub\DIO-Pottencial-.NET\obj\Debug\net6.0\ref\DIO-Pottencial-.NET.dll
+C:\Users\teo-s\Documents\Documentos\GitHub\DIO-Pottencial-.NET\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\teo-s\Documents\Documentos\GitHub\DIO-Pottencial-.NET\obj\Debug\net6.0\DIO-Pottencial-.NET.csproj.CopyComplete

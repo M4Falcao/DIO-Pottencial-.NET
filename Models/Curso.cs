@@ -21,9 +21,11 @@ namespace DIO_Pottencial_.NET.Models
 
         public void ListarAlunos()
         {
-            foreach (Pessoa aluno in Alunos)
+            Console.WriteLine($"Alunos do curso de {Nome}"); //INTERPOLAÇÃO DE STRING
+            for (int i = 0; i < Alunos.Count; i++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                string texto = "Nº " + (i + 1) + ": " + Alunos[i].NomeCompleto; //CONCATENAÇÃO DE STRING
+                Console.WriteLine(texto);
             }
         }
 

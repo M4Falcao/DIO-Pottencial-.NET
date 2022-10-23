@@ -12,3 +12,10 @@ HOW TO CREATE:
 
     //////////////////////////////////////////////////////////////////////
    propriedades, metodos e constutores
+
+Para aparecer o 
+   /// <summary>
+        /// 
+        /// </summary>
+
+é só colocar "///"
